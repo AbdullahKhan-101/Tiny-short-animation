@@ -1,0 +1,51 @@
+.fotter_container > h6 {
+  color: rgb(67, 201, 201);
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+
+.fotter_container > p {
+  color: rgb(161, 161, 161);
+  font-weight: light;
+  font-size: 18px;
+  text-align: center;
+  font-style: italic;
+  max-width: 400px;
+  margin: 30px auto 80px auto;
+}
+.black_back {
+  background-color: rgba(0, 0, 0, 0.819);
+  color: white;
+}
+.black_back p {
+  background-color: rgba(35, 35, 35, 0.847);
+  padding: 20px;
+  font-size: 12px;
+  text-align: center;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 70px 0;
+}
+.icons li {
+  margin: 0 20px;
+  list-style: none;
+  cursor: pointer;
+  max-width: 40px;
+}
+.icons img {
+  width: 30px;
+}
+.up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.up img {
+  width: 20px;
+}
